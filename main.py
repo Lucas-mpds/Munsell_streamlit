@@ -5,7 +5,7 @@ import colour
 
 #streamlit run main.py
 
-st.title("Carta Munsell")
+st.title("Carta Munsell!")
 
 foto = st.camera_input("Tire a foto")
 
@@ -37,4 +37,5 @@ if foto:
     st.subheader("Resultado")
     st.write("sRGB (0–1):", srgb01)
     st.write("xyY:", xyY)
+
     st.write("Munsell:", munsell)
