@@ -1,4 +1,6 @@
 streamlit
 pillow
-numpy
+numpy==1.26.4
 colour-science==0.4.7
+scipy==1.13.1
+
