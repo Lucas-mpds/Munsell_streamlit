@@ -1,0 +1,4 @@
+streamlit
+pillow
+numpy
+colour-science==0.4.7
